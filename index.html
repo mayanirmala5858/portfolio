@@ -1,22 +1,1076 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>My Portofolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: SnapFolio
+  * Template URL: https://bootstrapmade.com/snapfolio-bootstrap-portfolio-template/
+  * Updated: Jul 21 2025 with Bootstrap v5.3.7
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body>
 
-  <h1>Halo, My name is Maya</h1>
-  <p>Quality Assurance Engineer</p>
+<body class="index-page">
 
-  <h2>My Project</h2>
+  <header id="header" class="header dark-background d-flex flex-column justify-content-center">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
 
-  <ul>
-    <li>Website Toko Online</li>
-    <li>Aplikasi Kasir</li>
-    <li>Landing Page</li>
-  </ul>
+    <div class="header-container d-flex flex-column align-items-start">
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+          <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+          <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+          <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+          <!--<li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>-->
+          <!--<li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>-->
+          <!--<li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>-->
+        </ul>
+      </nav>
 
-  <script src="script.js"></script>
+      <div class="social-links text-center">
+        <!--<a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>-->
+        <a href="https://www.instagram.com/maiasauruss/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/maya-nirmala-3706b4411/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="background-elements">
+        <div class="bg-circle circle-1"></div>
+        <div class="bg-circle circle-2"></div>
+      </div>
+
+      <div class="hero-content">
+
+        <div class="container">
+          <div class="row align-items-center">
+
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+              <div class="hero-text">
+                <h1>Port<span class="accent-text">Folio</span></h1>
+                <h2>Maya Nirmala</h2>
+                <p class="lead">I'm a <span class="typed" data-typed-items="Quality Assurance Engineer"></span></p>
+                <p class="description">Quality-focused QA Engineer who enjoys breaking applications before users do. Experienced in manual and automation testing, API validation, and ensuring seamless user experiences. Strong analytical mindset with a passion for delivering stable and high-performing software products.</p>
+
+                <div class="hero-actions">
+                  <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                  <!--<a href="#contact" class="btn btn-outline">Get In Touch</a>-->
+                </div>
+
+                <!--<div class="social-links">
+                  <a href="#"><i class="bi bi-dribbble"></i></a>
+                  <a href="#"><i class="bi bi-behance"></i></a>
+                  <a href="#"><i class="bi bi-github"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div> -->
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="hero-visual">
+                <div class="profile-container">
+                  <div class="profile-background"></div>
+                  <img src="assets/img/profile/Maya-profile1.jpg" alt="Maya Nirmala" class="profile-image">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="200">
+            <div class="profile-card">
+              <div class="profile-header">
+                <div class="profile-image">
+                  <img src="assets/img/profile/maya_profile2.jpg" alt="Profile Image" class="img-fluid">
+                </div>
+                <div class="profile-badge">
+                  <i class="bi bi-check-circle-fill"></i>
+                </div>
+              </div>
+
+              <div class="profile-content">
+                <h3>Maya Nirmala</h3>
+                <p class="profession">Quality Assurance Engineer</p>
+
+                <div class="contact-links">
+                  <a href="mailto:marcus@example.com" class="contact-item">
+                    <i class="bi bi-envelope"></i>
+                    mayanirmala55@gmail.com
+                  </a>
+                  <a href="tel:+15551234567" class="contact-item">
+                    <i class="bi bi-telephone"></i>
+                    +62 859 5946 6351
+                  </a>
+                  <a href="#" class="contact-item">
+                    <i class="bi bi-geo-alt"></i>
+                    Jakarta, Indonesia 
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
+            <div class="about-content">
+              <div class="section-header">
+                <span class="badge-text">Get to Know Me</span>
+                <h2>Passionate About Testing Application Experiences</h2>
+              </div>
+
+              <div class="description">
+                <p>Detail-oriented QA Engineer with experience in manual and automated testing for web and mobile applications. Skilled in creating test cases, identifying bugs, performing regression testing, and collaborating with developers to ensure high-quality software delivery. Passionate about improving product reliability and user experience through effective quality assurance processes.</p>
+              </div>
+
+              <div class="stats-grid">
+                <div class="stat-item">
+                  <div class="stat-number">10+</div>
+                  <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-number">6+</div>
+                  <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-number">98%</div>
+                  <div class="stat-label">Client Satisfaction</div>
+                </div>
+              </div>
+
+              <div class="details-grid">
+                <div class="detail-row">
+                  <div class="detail-item">
+                    <span class="detail-label">Specialization</span>
+                    <span class="detail-value">Quality Assurance Engineer</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Experience Level</span>
+                    <span class="detail-value">Middle Professional</span>
+                  </div>
+                </div>
+                <div class="detail-row">
+                  <div class="detail-item">
+                    <span class="detail-label">Education</span>
+                    <span class="detail-value">Informatics Engineer, S.Kom</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Languages</span>
+                    <span class="detail-value">English, Bahasa Indonesia</span>
+                  </div>
+                </div>
+              </div>
+
+              <!--<div class="cta-section">
+                <a href="#" class="btn btn-primary">
+                  <i class="bi bi-download"></i>
+                  Download Resume
+                </a>
+                <a href="#" class="btn btn-outline">
+                  <i class="bi bi-chat-dots"></i>
+                  Let's Talk
+                </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section 
+    <section id="stats" class="stats section light-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="stats-wrapper">
+              <div class="stats-item" data-aos="zoom-in" data-aos-delay="150">
+                <div class="icon-wrapper">
+                  <i class="bi bi-emoji-smile"></i>
+                </div>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Happy Clients</p>
+              </div> --><!-- End Stats Item -->
+
+             <!-- <div class="stats-item" data-aos="zoom-in" data-aos-delay="200">
+                <div class="icon-wrapper">
+                  <i class="bi bi-journal-richtext"></i>
+                </div>
+                <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Projects</p>
+              </div>--><!-- End Stats Item -->
+
+              <!--<div class="stats-item" data-aos="zoom-in" data-aos-delay="250">
+                <div class="icon-wrapper">
+                  <i class="bi bi-headset"></i>
+                </div>
+                <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Hours Of Support</p>
+              </div>--><!-- End Stats Item -->
+
+              <!--<div class="stats-item" data-aos="zoom-in" data-aos-delay="300">
+                <div class="icon-wrapper">
+                  <i class="bi bi-people"></i>
+                </div>
+                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Hard Workers</p>
+              </div>--><!-- End Stats Item -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <!--<p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>-->
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="200">
+              <h3>Hard Skills</h3>
+              <div class="skills-animation">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>Manual Testing</h4>
+                    <span class="skill-percentage">95%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Expert level knowledge of manual testing for website, mobile apps and API</div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>Automation Testing</h4>
+                    <span class="skill-percentage">75%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Have knowledge automation using Selenium, Java and SQL </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>API Testing</h4>
+                    <span class="skill-percentage">75%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Experience with Postman and SoapUI</div>
+                </div>
+              </div>
+
+              
+            </div><!-- End Frontend Skills -->
+          </div>
+
+          <div class="col-lg-6">
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="300">
+              <h3>Soft Skills</h3>
+              <div class="skills-animation">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>Problem Solving</h4>
+                    <span class="skill-percentage">85%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Strong problem-solving skills with the ability to identify issues, analyze root causes, and provide effective solutions efficiently.</div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>Communication</h4>
+                    <span class="skill-percentage">75%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Excellent communication skills with the ability to collaborate effectively with developers, product teams, and stakeholders to ensure software quality and project success.</div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>Adaptability</h4>
+                    <span class="skill-percentage">65%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="skill-tooltip">Highly adaptable QA Engineer with the ability to quickly learn new tools, technologies, and testing methodologies in fast-paced environments</div>
+                </div>
+              </div>
+            </div><!-- End Backend Skills -->
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p></p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <!-- Left column with summary and contact -->
+          <div class="col-lg-4">
+            <div class="resume-side" data-aos="fade-right" data-aos-delay="100">
+              <div class="profile-img mb-4">
+                <img src="assets/img/profile/Mayanirmala-profile3.png" alt="Profile" class="img-fluid rounded">
+              </div>
+
+              <h3>Professional Summary</h3>
+              <p>Dedicated and detail-oriented Quality Assurance (QA) Engineer with over 6 years of experience in
+testing web and mobile applications, API testing, and automation. Skilled in creating comprehensive
+test cases, identifying and documenting bugs, and providing actionable feedback to developers.
+Proficient in tools such as Selenium, JMeter, and SoapUI. Known for strong communication skills,
+adaptability, and a proactive approach to learning new technologies and methodologies. Passionate
+about delivering high-quality software through thorough testing and teamwork.</p>
+
+              <h3 class="mt-4">Contact Information</h3>
+              <ul class="contact-info list-unstyled">
+                <li><i class="bi bi-geo-alt"></i> North Jakarta, Indonesia</li>
+                <li><i class="bi bi-envelope"></i> mayanirmala55@gmail.com</li>
+                <li><i class="bi bi-phone"></i> +62 859 5946 6351</li>
+                <li><i class="bi bi-linkedin"></i> linkedin.com/in/maya-nirmala-3706b4411/</li>
+              </ul>
+
+              <div class="skills-animation mt-4">
+                <h3>Technical Skills</h3>
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between">
+                    <span>Manual Testing</span>
+                    <span>95%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between">
+                    <span>Automation Testing</span>
+                    <span>80%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between">
+                    <span>Programming</span>
+                    <span>70%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between">
+                    <span>Project Management</span>
+                    <span>80%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right column with experience and education -->
+          <div class="col-lg-8 ps-4 ps-lg-5">
+            <!-- Experience Section -->
+            <div class="resume-section" data-aos="fade-up">
+              <h3><i class="bi bi-briefcase me-2"></i>Professional Experience</h3>
+
+              <div class="resume-item">
+                <h4>Quality Assurance Engineer</h4>
+                <h5>March 2026 - Present</h5>
+                <p class="company"><i class="bi bi-building"></i> PT Prosigmaka Mandiri (client : PT Poin Sukses Makmur member Otto Digital Group)</p>
+                <ul>
+                  <li>Design test case SIT</li>
+                  <li>Testing manual website</li>
+                </ul>
+              </div>
+
+              <div class="resume-item">
+                <h4>QA/QC Engineer</h4>
+                <h5>June 2022 - Oct 2025</h5>
+                <p class="company"><i class="bi bi-building"></i> PT Firstwap International</p>
+                <ul>
+                  <li>Designed and executed test cases for web, mobile, and API testing</li>
+                  <li>Performed validation, verification, and documented test results</li>
+                  <li>Used Selenium for automation and JMeter for performance testing</li>
+                </ul>
+              </div>
+
+               <div class="resume-item">
+                <h4>QA Software Engineer</h4>
+                <h5>Sept 2021 - May 2022</h5>
+                <p class="company"><i class="bi bi-building"></i> PT NTT Indonesia (Client: Danamon Indonesia)</p>
+                <ul>
+                  <li>Conducted website testing and bug reporting</li>
+                  <li>Delivered comprehensive test documentation</li>
+                </ul>
+              </div>
+
+              <div class="resume-item">
+                <h4>QA Software Engineer</h4>
+                <h5>Dec 2019 - Sept 2021</h5>
+                <p class="company"><i class="bi bi-building"></i> PT Mitra Integrasi Informatika (Client: BNI)</p>
+                <ul>
+                  <li>Conducted manual testing for website, mobile application, API and performance testing
+(JMeter)</li>
+                  <li>Collaborated with developers for issue resolution and feedback</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Education Section -->
+            <div class="resume-section" data-aos="fade-up" data-aos-delay="100">
+              <h3><i class="bi bi-mortarboard me-2"></i>Education</h3>      
+
+              <div class="resume-item">
+                <h4>Bachelor of Informatics Engineering</h4>
+                <h5>2014 - 2018</h5>
+                <p class="company"><i class="bi bi-building"></i> S.Kom (GPA 3.58/4.00)</p>
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Certifications Section -->
+            <div class="resume-section" data-aos="fade-up" data-aos-delay="200">
+              <h3><i class="bi bi-award me-2"></i>Certifications</h3>
+
+              <div class="resume-item">
+                <h4>Assistant Lecturer, YARSI University (Various Programming Courses)</h4>
+                <h5></h5>
+              </div>
+
+              <div class="resume-item">
+                <h4>Speaker, SNATi 2017 National Seminar</h4>
+                <h5></h5>
+              </div>
+
+              <div class="resume-item">
+                <h4>Java Programming & Game Animation Workshop Instructor (2015)</h4>
+                <h5></h5>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Some example of project that I've done testing</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <!--<div class="row">
+            <div class="col-lg-3 filter-sidebar">
+              <div class="filters-wrapper" data-aos="fade-right" data-aos-delay="150">
+                <ul class="portfolio-filters isotope-filters">
+                  <li data-filter="*" class="filter-active">All Projects</li>
+                  <li data-filter=".filter-photography">Photography</li>
+                  <li data-filter=".filter-design">Design</li>
+                  <li data-filter=".filter-automotive">Automotive</li>
+                  <li data-filter=".filter-nature">Nature</li>
+                </ul>
+              </div>
+            </div>-->
+
+            <div class="col-lg-12">
+              <div class="row gy-4 portfolio-container isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-photography">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/mobiletrax.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">MobileTrax</span>
+                        <h4>Tracking Location</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/mobiletrax.webp" class="glightbox" title="Location Tracking"><i class="bi bi-plus-lg"></i></a>
+                          <!--<a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-design">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/danamon_cc.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Danamon Cash Connect</span>
+                        <h4>Bank Danamon</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/danamon_cc.webp" class="glightbox" title="Danamon Cash Connect"><i class="bi bi-plus-lg"></i></a>
+                          <!--<a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-automotive">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/bni_ib.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">BNI Internet Banking</span>
+                        <h4>BNI</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/bni_ib.webp" class="glightbox" title="Internet Banking"><i class="bi bi-plus-lg"></i></a>
+                          <!--<a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-nature">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/doa_bni.jpg" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Digital Open Account</span>
+                        <h4>BNI</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/doa_bni.jpg" class="glightbox" title="Digital Open Account"><i class="bi bi-plus-lg"></i></a>
+                          <!--<a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                
+
+              </div><!-- End Portfolio Container -->
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!--Services Section -->
+    <!--<section id="services" class="services section"> -->
+
+      <!-- Section Title -->
+     <!-- <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div> --><!-- End Section Title --> 
+
+      <!--<div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="service-header">
+          <div class="row align-items-center">
+            <div class="col-lg-8 col-md-12">
+              <div class="service-intro">
+                <h2 class="service-heading">
+                  <div>Innovative business</div>
+                  <div><span>performance solutions</span></div>
+                </h2>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <div class="service-summary">
+                <p>
+                  We integrate forward-thinking strategies, creative approaches, and state-of-the-art technologies to deliver exceptional customer experiences that drive growth and engage target markets.
+                </p>
+                <a href="services.html" class="service-btn">
+                  View All Services
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-palette"></i>
+              </div>
+              <a href="service-details.html" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+              <h3>
+                <a href="service-details.html">
+                  Creative <span>branding</span>
+                </a>
+              </h3>
+              <p>
+                Nulla facilisi. Maecenas eget magna neque. Suspendisse potenti. Curabitur eleifend nisi non magna vulputate, vel condimentum libero tempus. Proin consectetur feugiat diam.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-gem"></i>
+              </div>
+              <a href="service-details.html" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+              <h3>
+                <a href="service-details.html">
+                  Design <span>systems</span>
+                </a>
+              </h3>
+              <p>
+                Praesent euismod varius tellus, vel bibendum nunc interdum at. Donec vehicula diam vel metus venenatis convallis. Aliquam erat volutpat. Etiam viverra magna sit amet.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-megaphone"></i>
+              </div>
+              <a href="service-details.html" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+              <h3>
+                <a href="service-details.html">
+                  Marketing <span>strategies</span>
+                </a>
+              </h3>
+              <p>
+                Vivamus tempor velit id magna dictum, sed fermentum nisi faucibus. Integer nec pretium sapien. Fusce tincidunt ligula et purus consequat, ac pellentesque nulla eleifend.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-code-slash"></i>
+              </div>
+              <a href="service-details.html" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+              <h3>
+                <a href="service-details.html">
+                  Digital <span>platforms</span>
+                </a>
+              </h3>
+              <p>
+                Cras fermentum odio eu feugiat malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et accumsan cursus. Morbi placerat nulla vel nunc viverra accumsan.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-graph-up"></i>
+              </div>
+              <a href="service-details.html" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+              <h3>
+                <a href="service-details.html">
+                  Growth <span>acceleration</span>
+                </a>
+              </h3>
+              <p>
+                Aenean vel augue vel nisi bibendum posuere. Phasellus in lacus quis urna sodales dignissim. Duis aliquam libero eget risus facilisis. Quisque eget libero vel nisl fringilla.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-camera-video"></i>
+              </div>
+              <a href="service-details.html" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+              <h3>
+                <a href="service-details.html">
+                  Media <span>solutions</span>
+                </a>
+              </h3>
+              <p>
+                Etiam efficitur lacus in diam finibus, nec ultrices est sagittis. Maecenas elementum magna sed risus faucibus, nec commodo purus facilisis. Vestibulum accumsan magna.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>--><!-- /Services Section --> 
+
+    <!-- Testimonials Section -->
+    <!--<section id="testimonials" class="testimonials section light-background">-->
+
+      <!-- Section Title -->
+      <!--<div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>--><!-- End Section Title -->
+
+      <!--<div class="container">
+
+        <div class="testimonial-masonry">
+
+          <div class="testimonial-item" data-aos="fade-up">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>Implementing innovative strategies has revolutionized our approach to market challenges and competitive positioning.</p>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/person-f-7.webp" alt="Client">
+                </div>
+                <div class="client-details">
+                  <h3>Rachel Bennett</h3>
+                  <span class="position">Strategy Director</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-item highlight" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>Exceptional service delivery and innovative solutions have transformed our business operations, leading to remarkable growth and enhanced customer satisfaction across all touchpoints.</p>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/person-m-7.webp" alt="Client">
+                </div>
+                <div class="client-details">
+                  <h3>Daniel Morgan</h3>
+                  <span class="position">Chief Innovation Officer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>Strategic partnership has enabled seamless digital transformation and operational excellence.</p>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/person-f-8.webp" alt="Client">
+                </div>
+                <div class="client-details">
+                  <h3>Emma Thompson</h3>
+                  <span class="position">Digital Lead</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>Professional expertise and dedication have significantly improved our project delivery timelines and quality metrics.</p>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/person-m-8.webp" alt="Client">
+                </div>
+                <div class="client-details">
+                  <h3>Christopher Lee</h3>
+                  <span class="position">Technical Director</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-item highlight" data-aos="fade-up" data-aos-delay="400">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>Collaborative approach and industry expertise have revolutionized our product development cycle, resulting in faster time-to-market and increased customer engagement levels.</p>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/person-f-9.webp" alt="Client">
+                </div>
+                <div class="client-details">
+                  <h3>Olivia Carter</h3>
+                  <span class="position">Product Manager</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="500">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>Innovative approach to user experience design has significantly enhanced our platform's engagement metrics and customer retention rates.</p>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/person-m-13.webp" alt="Client">
+                </div>
+                <div class="client-details">
+                  <h3>Nathan Brooks</h3>
+                  <span class="position">UX Director</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>--><!-- /Testimonials Section -->
+
+    <!-- Contact Section -->
+    <!--<section id="contact" class="contact section">-->
+
+      <!-- Section Title -->
+      <!--<div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>--><!-- End Section Title -->
+
+     <!-- <div class="container">
+
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-5">
+            <div class="info-box">
+              <h3>Contact Info</h3>
+              <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div class="content">
+                  <h4>Our Location</h4>
+                  <p>A108 Adam Street</p>
+                  <p>New York, NY 535022</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="content">
+                  <h4>Phone Number</h4>
+                  <p>+1 5589 55488 55</p>
+                  <p>+1 6678 254445 41</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="content">
+                  <h4>Email Address</h4>
+                  <p>info@example.com</p>
+                  <p>contact@example.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form">
+              <h3>Get In Touch</h3>
+              <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p>
+
+              <form action="forms/contact.php" method="post" class="php-email-form">
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>--><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | <a href="https://bootstrapmade.com/tools/">DevTools</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
